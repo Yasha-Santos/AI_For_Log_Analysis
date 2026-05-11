@@ -1,3 +1,3 @@
-# AI_For_Log_Analysis
+# AI For Log Analysis
 
 Our AI for Log Analysis is a project focused on using machine learning and automation to analyze system logs more efficiently. The goal of our capstone is to use AI to aid in the detection patterns, identify unusual activity or anomalies, and support faster troubleshooting when issues occur. By applying AI techniques to log data, this project aims to reduce the time needed to manually review logs and help users better understand system behaviour. This repository includes the project files, code, and documentation related to the development and testing of our log analysis approach.
