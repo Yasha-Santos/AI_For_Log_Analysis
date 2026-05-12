@@ -1,6 +1,8 @@
 # AI For Log Analysis
 
-Our AI for Log Analysis is a project focused on using machine learning and automation to analyze system logs more efficiently. The goal of our capstone is to use AI to aid in the detection patterns, identify unusual activity or anomalies, and support faster troubleshooting when issues occur. This repository includes the project files, code, and documentation related to the development and testing of our log analysis approach.
+Our AI For Log Analysis project focuses on using machine learning and automation techniques to analyze system and security logs more efficiently. The goal of this capstone project is to leverage AI to detect patterns, identify suspicious activity or anomalies, and support faster troubleshooting and incident response when issues occur.
+
+This repository contains the project files, source code, datasets, and documentation related to the development, testing, and implementation of our AI-driven log analysis approach.
 
 #### Our POC folder contains the following files:
 
