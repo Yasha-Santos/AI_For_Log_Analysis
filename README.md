@@ -11,3 +11,5 @@ This repository contains the project files, source code, datasets, and documenta
 - [SSH Logs](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/POC/ssh_logs.txt)
 - [Unstructured ML Analysis](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/POC/unstructered_ml_analysis.py)
   - TBD
+
+<img width="1239" height="864" alt="1" src="https://github.com/user-attachments/assets/99de9109-0877-448b-9fbb-e98e19348fc7" />
