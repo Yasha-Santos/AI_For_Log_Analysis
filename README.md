@@ -13,3 +13,9 @@ This repository contains the project files, source code, datasets, and documenta
   - TBD
 
 <img width="1239" height="864" alt="1" src="https://github.com/user-attachments/assets/99de9109-0877-448b-9fbb-e98e19348fc7" />
+
+
+#### Scanning Functionality:
+
+  -We are using AbusdIPdb API to look up the IPS and get a confidence score and crowdsourced reports on the IP , and if it is flagged it provide an explanation why it was flagged
+  -We are using VirusTotal API to scan URLs and reports from over 90 different security vendors and URL scanners, giving you a highly accurate, crowdsourced risk report.
