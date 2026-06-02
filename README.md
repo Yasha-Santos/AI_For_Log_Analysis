@@ -7,7 +7,7 @@ This repository contains the project files, source code, datasets, and documenta
 #### Our repository contains the following folders:
 
 - [POC](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/POC)
-     [DEPR](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/POC/DEPR)
+  [DEPR](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/POC/DEPR)
 - [Scanning Scripts](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/Scanning%20Scripts)
 - [Website](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/The%20Website)
 - [TBA]
