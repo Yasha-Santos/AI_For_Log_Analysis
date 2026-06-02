@@ -4,10 +4,12 @@ Our AI For Log Analysis project focuses on using machine learning and automation
 
 This repository contains the project files, source code, datasets, and documentation related to the development, testing, and implementation of our AI-driven log analysis approach.
 
-#### Our POC folder contains the following files:
+#### Our repository contains the following folders:
 
-- [Parsed Log Output File](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/POC/parsed_logs_output.json)
-- [Run Model on File](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/POC/run_model_on_file.py)
+
+### POC Folder:
+- [DEPR](https://github.com/Yasha-Santos/AI_For_Log_Analysis/POC/DEPR)
+- [Big Log Links](https://github.com/Yasha-Santos/AI_For_Log_Analysis/POC/Big_Log_Links.txt)
 - [SSH Logs](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/POC/ssh_logs.txt)
 - [Unstructured ML Analysis](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/POC/unstructered_ml_analysis.py)
   - TBD
