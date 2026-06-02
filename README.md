@@ -6,13 +6,11 @@ This repository contains the project files, source code, datasets, and documenta
 
 #### Our repository contains the following folders:
 
-
-### POC Folder:
-- [DEPR](https://github.com/Yasha-Santos/AI_For_Log_Analysis/POC/DEPR)
-- [Big Log Links](https://github.com/Yasha-Santos/AI_For_Log_Analysis/POC/Big_Log_Links.txt)
-- [SSH Logs](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/POC/ssh_logs.txt)
-- [Unstructured ML Analysis](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/POC/unstructered_ml_analysis.py)
-  - TBD
+[POC](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/POC)
+    - [DEPR](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/POC/DEPR)
+- [Scanning Scripts](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/Scanning%20Scripts)
+- [Website](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/The%20Website)
+- [TBA]
 
 <img width="1239" height="864" alt="1" src="https://github.com/user-attachments/assets/99de9109-0877-448b-9fbb-e98e19348fc7" />
 
