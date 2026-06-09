@@ -17,7 +17,8 @@ This repository contains the project files, source code, datasets, and documenta
 
 #### Scanning Functionality:
 
-- We are using AbusdIPdb API and AlienVault APIto look up the IPS and get a confidence score and crowdsourced reports on the IP , and if it is flagged it provide an explanation why it was flagged. 
+- We are using AbusdIPdb API and AlienVault APIto look up the IPS and get a confidence score and crowdsourced reports on the IP , and if it is flagged it provide an explanation why it was flagged.
+- We are also using an offline IPs database to geolocate the country of origin for the IP to lessen the load APIs calling . ( Data based used is "GeoLite2-Country.mmdb")
 - We are using VirusTotal API to scan URLs and reports from over 90 different security vendors and URL scanners, giving you a highly accurate, crowdsourced risk report.
 - We are also using VirusTotal to chech any file hashes and reporting on it
-- We are also checking the ports and portocols used to for port tunneling 
+- We are also checking the ports and portocols used to for port tunneling
