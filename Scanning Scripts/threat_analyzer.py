@@ -235,5 +235,5 @@ def analyze_logs(csv_file):
 
 if __name__ == "__main__":
     # Example usage for testing standalone execution:
-    analyze_logs("testing_csv_anomalies.csv")
+    # analyze_logs("testing_csv_anomalies.csv")
     pass
