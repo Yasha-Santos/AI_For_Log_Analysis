@@ -41,7 +41,7 @@ def process_log_dataset(file_path):
 
     total_records = len(rows_iterable)
     print(f"[+] Successfully loaded {total_records} rows from CSV file.")
-    print(f"\n[+] Triage underway. Analyzing all {total_records} entries line-by-line...\n")
+    print(f"\n[+] Triage underway. Analyzing entries line-by-line...\n")
 
     for row in rows_iterable:
         row_num = row['_row_identifier']
@@ -57,7 +57,13 @@ def process_log_dataset(file_path):
             csv_score = 0.0
             csv_flag = 0
 
-        print(f" -> Analyzing Row #{row_num} | Src: {src_ip} | Score: {csv_score}")
+        # =========================================================
+        # NEW: Skip the row entirely if it is not flagged as an anomaly
+        if csv_flag == 0:
+            continue
+        # =========================================================
+
+        print(f" -> Analyzing Row #{row_num} (Anomaly Detected) | Src: {src_ip} | Score: {csv_score}")
 
         # Initialize internal metrics baseline weight
         calculated_risk = 0.0
@@ -149,7 +155,7 @@ def process_log_dataset(file_path):
 def generate_prioritized_pdf(processed_incidents):
     """Sorts all analyzed row items by risk rank and builds a clean ReportLab PDF document."""
     if not processed_incidents:
-        print("[-] Data list is empty. PDF generation skipped.")
+        print("[-] Data list is empty (no anomalies found). PDF generation skipped.")
         return None
 
     # CRITICAL SORT: Highest computed risk scores go straight to index position 0 (the top)
@@ -172,7 +178,7 @@ def generate_prioritized_pdf(processed_incidents):
         Paragraph("Prioritized SOC Automated Log Analysis Brief", title_style),
         Paragraph(f"Analysis Timeline: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", styles['Normal']),
         Spacer(1, 15),
-        Paragraph(f"Total Triage Count: {len(sorted_incidents)} items evaluated and reordered by risk factor.",
+        Paragraph(f"Total Triage Count: {len(sorted_incidents)} anomalies evaluated and reordered by risk factor.",
                   styles['Italic']),
         Spacer(1, 10)
     ]
@@ -229,5 +235,5 @@ def analyze_logs(csv_file):
 
 if __name__ == "__main__":
     # Example usage for testing standalone execution:
-    # analyze_logs("your_sample_data.csv")
+    analyze_logs("testing_csv_anomalies.csv")
     pass
