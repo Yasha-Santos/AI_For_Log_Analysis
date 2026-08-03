@@ -12,7 +12,8 @@ This repository contains the project files, source code, datasets, and documenta
 - [Website](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/The%20Website)
 - [TBA]
 
-<img width="1057" height="806" alt="image" src="https://github.com/user-attachments/assets/7fbfb611-c659-4d65-8e9e-9e478e88ab07" />
+ <img width="1058" height="764" alt="image" src="https://github.com/user-attachments/assets/074140ea-f5e0-4c56-a9ad-201c1ea2bcca" />
+
 
 
 
