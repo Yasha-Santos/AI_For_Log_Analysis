@@ -11,6 +11,8 @@ This repository contains the project files, source code, datasets, and documenta
 - [Scanning Scripts](https://github.com/Yasha-Santos/AI_For_Log_Analysis/tree/main/Scanning%20Scripts)
 - [Website](https://github.com/Yasha-Santos/AI_For_Log_Analysis/blob/main/The%20Website/Final_App.zip)
  <img width="1058" height="764" alt="image" src="https://github.com/user-attachments/assets/074140ea-f5e0-4c56-a9ad-201c1ea2bcca" />
+
+
 #### Threat Reporting:
 
 - We are using AbusdIPdb API and AlienVault API to look up the IPs and get a confidence score and crowdsourced reports on the IP , and if it is flagged it provide an explanation why it was flagged.
