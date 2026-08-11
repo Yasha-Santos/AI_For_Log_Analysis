@@ -1,4 +1,4 @@
-# AI For Log Analysis
+# Log Analysis Using AI
 
 Our AI For Log Analysis project focuses on using machine learning and automation techniques to analyze system and security logs more efficiently. The goal of this capstone project is to leverage AI to detect patterns, identify suspicious activity or anomalies, and support faster troubleshooting and incident response when issues occur.
 
