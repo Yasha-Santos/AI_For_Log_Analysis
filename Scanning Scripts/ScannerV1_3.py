@@ -11,9 +11,9 @@ from reportlab.lib import colors
 # =====================================================================
 # CONFIGURATION - INSERT API KEYS HERE
 # =====================================================================
-ABUSEIPDB_API_KEY = "231c4a9e71b145ec686d83d9002ed73f77d33215e81a7a859bd3076718eb6965220afc4d5195cc5b"
-VIRUSTOTAL_API_KEY = "270a570af4daa177239a4b5a656d0ecd2654fc48ff3374f01d23a31db1b8b119"
-ALIENVAULT_API_KEY = "cf208987d93d8363ba2164f21d6f5c4908c48d265e662a7bec2ed7460680da1c"
+ABUSEIPDB_API_KEY = ""
+VIRUSTOTAL_API_KEY = ""
+ALIENVAULT_API_KEY = ""
 
 # Global session cache to store scan details for the PDF summary
 scan_history = []
